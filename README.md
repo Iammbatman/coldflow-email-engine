@@ -1,56 +1,63 @@
 
 # ColdFlow
 
-### A clearer, more natural way to write emails.
+### Write clearer, more natural emails.
 
-ColdFlow is a workspace for reviewing and refining outbound email wording.
+ColdFlow is a simple workspace designed to review and refine outbound email messages.
 
-It helps identify overly promotional language and suggests more natural alternatives while preserving the original message and intent.
+It helps identify overly promotional wording, suggests more natural alternatives, and improves the flow of sentences and paragraphs while preserving the original meaning and intent.
 
 ## Features
 
-- **Email Wording Review:** Review emails for overly promotional or sales-heavy wording.
-- **Alternative Suggestions:** Find alternative phrases that sound more natural.
-- **Natural Wording:** Refine sentences and paragraphs into clearer, more conversational language.
-- **Meaning Preservation:** Retain the original message and intent.
-- **Simple Interface:** A focused workspace for email review and refinement.
-- **Local Usage:** Runs locally using Streamlit without requiring an API key.
+- **Email Review:** Examine email wording for overly promotional or sales-heavy language.
+- **Wording Suggestions:** Discover alternative phrases that sound more natural and appropriate.
+- **Natural Refinement:** Improve sentences and paragraphs for clarity, readability, and conversational flow.
+- **Meaning Preservation:** Retain the original message, purpose, and intent.
+- **Simple Workspace:** A clean interface focused on reviewing and refining emails.
+- **Local Execution:** Run ColdFlow on your computer without requiring an API key.
 
-## Technology
+## Built With
 
 - Python
 - Streamlit
 
-## Installation
+## Getting Started
 
-### 1. Clone the repository
+### Prerequisites
+
+- Python 3.9 or later
+- Git
+
+### 1. Clone the Repository
 
 ```bash
 git clone https://github.com/YOUR-USERNAME/coldflow-email-engine.git
 cd coldflow-email-engine
 ```
 
-### 2. Create a virtual environment
+Replace `YOUR-USERNAME` with your actual GitHub username.
+
+### 2. Create a Virtual Environment
 
 ```bash
 python -m venv venv
 ```
 
-### 3. Activate the environment
+### 3. Activate the Environment
 
-Windows:
+Windows PowerShell:
 
 ```powershell
 venv\Scripts\Activate.ps1
 ```
 
-### 4. Install dependencies
+### 4. Install Dependencies
 
 ```bash
 pip install -r requirements.txt
 ```
 
-### 5. Run ColdFlow
+### 5. Launch ColdFlow
 
 ```bash
 streamlit run coldflow_email_workspace.py
@@ -71,21 +78,25 @@ coldflow-email-engine/
 ├── requirements.txt
 ├── README.md
 ├── .gitignore
-└── venv/
+└── other project files
 ```
 
 ## Privacy
 
-Never upload passwords, API keys, `.env` files, or private credentials to GitHub.
+ColdFlow is designed for local use.
 
-## Important Note
+- Do not upload passwords or API keys.
+- Keep `.env` files and private credentials out of GitHub.
+- Use `.gitignore` to exclude unnecessary and sensitive files.
 
-ColdFlow provides email wording suggestions. It cannot guarantee inbox delivery or prevent spam filtering.
+## Disclaimer
+
+ColdFlow provides wording suggestions and language refinement. It does not guarantee inbox placement, email deliverability, or avoidance of spam filters.
 
 ## Project Status
 
-ColdFlow is currently under development.
+Currently under development.
 
-## Feedback
+## Feedback and Contributions
 
-Suggestions and bug reports are welcome through GitHub Issues.
+Suggestions, improvements, and bug reports are welcome through GitHub Issues.
