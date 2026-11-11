@@ -598,4 +598,4 @@ if st.session_state.audit_executed:
                 ])
                 st.markdown(f"<div class='token-card'>{token_rows}</div>", unsafe_allow_html=True)
             else:
-                st.success("Text cadence is already indistinguishable from human writing.")c
+                st.success("Text cadence is already indistinguishable from human writing.")
